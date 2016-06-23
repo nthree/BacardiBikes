@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">BacardiBikes</string>
+
+
+    <string name="hoursOpen" >
+<b>Hours:</b> \n
+<b>Mon</b> 	10:00 am - 7:00 pm \n
+<b>Tue</b> 	10:00 am - 7:00 pm \n
+<b>Wed</b>	10:00 am - 7:00 pm \n
+<b>Thu</b> 	10:00 am - 7:00 pm \n
+<b>Fri</b> 	10:00 am - 7:00 pm  \n
+<b>Sat</b> 	10:00 am - 7:00 pm  \n
+<b>Sun</b> 	11:00 am - 6:00 pm " </string>
+
+
+    <string name="storeInfo" >
+        <b>3437 N. Milwaukee Ave. Chicago, IL 60641</b> \n
+        <b>Website:</b> Facebook.com/BacardiBikes \n
+        <b>E-mail:</b> bacardibikes@gmail.com \n
+        <b>Call:</b> 773-719-0487
+    </string>
+
+
+</resources>

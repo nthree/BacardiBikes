@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="8dp"
+    android:background="#FFFFFF"
+    tools:context="org.nthree.bacardibikes.MainActivity">
+
+    <TextView
+        android:id="@+id/BacardiBikes"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:text="Bacardi Bikes"
+        android:textSize="40sp"
+        android:layout_marginLeft="8dp"
+        android:textStyle="italic"
+        android:textColor="#621014"
+        android:layout_toLeftOf="@+id/logo"
+
+        />
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="190dp"
+        android:layout_height="92dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/logo2"
+        android:layout_alignParentRight="true"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@drawable/boarder_style"
+        android:layout_margin= "8dp"
+        android:layout_below="@+id/BacardiBikes">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:src="@drawable/frontstore2"
+            android:scaleType="fitXY"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text= "@string/storeInfo"
+            android:layout_marginBottom="18dp"
+            android:textSize= "16sp"
+            android:textStyle="italic"
+            android:textColor="#000000"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Great used bike at great prices. Select from vintage, road, mountain, hybrid, bmx, and children bikes. Need your bike repaired? We do that too!"
+            android:textSize="16sp"
+            android:layout_marginBottom="18dp"
+            android:textColor="#000000"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/hoursOpen"
+            android:textColor="#000000"
+            />
+
+
+
+    </LinearLayout>
+
+
+
+
+</RelativeLayout>
